@@ -1,0 +1,50 @@
+# _data/sidebar.yml
+
+- title: Home
+  url: /
+  icon: "fas fa-home"
+
+- title: About
+  url: /tabs/about/
+  icon: "fas fa-info-circle"
+
+- title: Exercise Environment
+  url: /environment/
+  icon: "fas fa-gear"
+
+- title: Content
+  icon: "fas fa-angles-down"
+  children:
+    - title: 1. Introduction
+      url: /intro/
+    - title: 2. Network programming basics
+      url: /socket-basics/
+    - title: 3a. Server programming
+      url: /server-sockets/
+    - title: 3b. UDP Sockets
+      url: /udp/
+    - title: 4. Congestion control
+      url: /congestion/
+    - title: 5. Evolution of web
+      url: /web/
+
+- title: Code Examples
+  url: /examples/
+  icon: "fas fa-code"
+
+- title: Assignments
+  url: /assignments/
+  icon: "fas fa-pen"
+  children:
+    - title: Simple Client
+      url: /assignments/task-cli/
+    - title: TCP Server
+      url: /assignments/task-srv/
+    - title: Data Transfer using UDP
+      url: /assignments/task-udp/
+    - title: Experimenting with QUIC
+      url: /assignments/task-quic/
+
+- title: Wireshark
+  url: /wireshark/
+  icon: "fas fa-hat-wizard"

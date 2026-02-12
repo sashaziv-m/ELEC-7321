@@ -1,0 +1,8 @@
+[package]
+name = "task-tun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mio = { version = "1.0", features = ["net", "os-poll", "os-ext"] }
+tun = "0.7"
